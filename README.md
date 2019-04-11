@@ -1,13 +1,40 @@
 # Real-time-object-detection
-OpenCv dnn + Caffe model 
-<h2>Libraries</h2>
 
-<ul>
-  <li>Opencv</li>
-  <li>Numpy</li>
-</ul>
+Real-time object detection trained 
 
-<h2>Model</h2> 
-<p> 
-  The used model is a Caffe version of the original and has been trained by <a href = "https://github.com/chuanqi305/MobileNet-SSD"> chuanqi305 </a>
-</p>
+
+## Dependencies
+
+* OpenCv
+* imutils
+
+```
+pip install -r requirements.txt
+```
+
+## Docker
+
+
+```
+docker build -t object-detection .
+```
+
+
+Run the project with pre-trained model :
+
+```
+bash RunDocker.sh
+```
+
+## Result 
+
+
+
+## Reference
+
+ The model is a caffe implementation of MobileNet-SSD detection network trained by 
+ <a href = "https://github.com/chuanqi305/MobileNet-SSD"> chuanqi305</a>
+
+
+
+
