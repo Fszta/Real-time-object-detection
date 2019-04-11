@@ -1,7 +1,5 @@
 # Real-time-object-detection
-
-Real-time object detection trained 
-
+Real-time object detection based on caffe pre-trained model
 
 ## Dependencies
 
@@ -27,8 +25,12 @@ bash RunDocker.sh
 ```
 
 ## Result 
+<p float="left">
+  <img src="images/screen2.png" alt="hi" class="inline" height = 280 />
+  <img src="images/screen4.png" alt="hi" class="inline" height = 280  />
+</p>  
 
-
+* Achieve 19 FPS with 640x480 resolution
 
 ## Reference
 
