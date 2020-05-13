@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 
 ```
-docker build -t object-detection .
+docker build -t object_detection .
 ```
 
 
